@@ -1,0 +1,92 @@
+/*CENG311 Activity 2 css file*/
+
+/*styling for the table goes here*/
+
+body 
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 750px;
+	margin-top: 5px;
+	margin-left: 5px;
+	display: grid;
+	justify-content: center;
+}
+
+table 
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+footer
+{
+	text-align: center;
+}
+caption
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+thead 
+{
+	background-color: yellow;
+}
+
+
+
+th, td 
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right 
+{
+	text-align: right;
+	background-color : yellow;
+	
+}
+
+#spannedColumn1
+{
+	background-color:white;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+#spannedColumn2
+{
+	background-color:white;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+#spannedColumn3
+{
+	background-color:white;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.lastRow
+{
+	text-align: right;
+	font-weight: bold;
+}
+
+tbody tr:nth-child(even) td 
+{
+	background-color: yellow;
+}
+
+tbody tr:nth-child(odd) td 
+{
+	background-color: white;
+}
