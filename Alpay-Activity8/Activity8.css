@@ -1,0 +1,42 @@
+.ui-datepicker thead {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #bbb;
+  }
+
+.ui-datepicker-header {
+    background: rgb(0, 0, 0);
+    color: #e0e0e0;
+    font-weight: bold;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #111;
+  }
+
+.ui-datepicker-calendar a.ui-state-default { 
+      background: rgb(69, 66, 66); 
+      color: #f7f7f7;
+      
+}
+
+.ui-datepicker-calendar td.ui-datepicker-today a { 
+    background: rgb(254, 244, 134); 
+    color: black;
+} 
+
+input{
+    
+    padding: 2px;
+    margin-bottom: 30px;
+}
+
+label{
+    width: 200px;
+    display: inline-block;
+}
+
+
+.ui-menu-item .ui-menu-item-wrapper.ui-state-active {
+    background: #111;
+    font-weight: bold;
+    color: #ffffff;
+} 
